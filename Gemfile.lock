@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/SBR2015/ootalk-syntaxlist.git
-  revision: f352324ba7b3e1df19a0ebfac2c0fe6e636ad4fb
+  revision: 08d510154defd2529d90fd02f68be6255471242d
   specs:
     ootalk-syntaxlist (1.1.2)
 
