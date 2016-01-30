@@ -1,0 +1,10 @@
+language: ruby
+rvm:
+- 2.2.3
+deploy:
+  provider: heroku
+  api_key:
+    secure: dtTB/ojUQX2wFtwUHODGdb6+AasUDISOodNw/AHIXXxwtH9Nzvf8iSnRiiiMX8rll1z4awoHlg7T+0cgh+1IYcYSII+5WtbYQ9qtXNDVXExww6zyrGNozNeeOjmJ7YBNQ3ZXJrZas3vXqY1ChX9B2ZcC675ciywCc3/FKkaS2fenR8NqI/nBouQKEjrFnSeTgu2J/u54aUk/xU9rU1sFxlvQBu7Ov5E4dOsVRbLDBhIqT4FfbWZ/1tSOE0RpT3cUdJaIuANfEfNg+tzbV0fCNrIflVSrwHSu92WKeizGtw6ku5t7kcd5b7TCKNA9Zm0in0EhOU+uNMOsUj7blAQKTUEm5sPdcvQkdBotHdP5KbK1iw0Oz6rbuAE0chZX1IIejEcZC7E2bZIuEozu+U36TeXdmJrOAhzb8JUchZ5WZtpjaOv9udE1SJD4eeIcq3m+LGrHmXaQO3lo+3ihpONXlgi8TFYUuwKLkPp7ps2qh5QvjjN/9/7RcAfCtYTWOyX6SpLD2OF98ZRGxMmKymhk+d9KKt23ffdLtUxzaOpmFTfKkfx6RSODspmr7Wi+D1hj87mz76RQyv4SMRmvJhMJZsH8dfhl0k2Q28etW3FY5sgRUP+6aVLDBm/6RVH7OhL593AlL4PWlGe2XTtcjLieeZtIKf1Mib13gKOJHtDESRU=
+  app: ootalk-syntax-list
+  on:
+    repo: SBR2015/ootalk-syntaxlist-server
