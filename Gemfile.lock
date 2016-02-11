@@ -7,7 +7,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    backports (3.6.7)
+    backports (3.6.8)
     multi_json (1.11.2)
     power_assert (0.2.7)
     puma (2.16.0)
@@ -46,4 +46,4 @@ DEPENDENCIES
   test-unit
 
 BUNDLED WITH
-   1.10.6
+   1.11.2
